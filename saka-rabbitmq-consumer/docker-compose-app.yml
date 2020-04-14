@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  saka-springboot-rabbitmq-consumer:
+    image: fabiojapa/saka-springboot-rabbitmq-consumer
+    network_mode: host
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 32M

@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  saka-nodejs-rabbitmq-consumer:
+    image: fabiojapa/saka-nodejs-rabbitmq-consumer
+    network_mode: host
+    deploy:
+      resources:
+        limits:
+          cpus: '0.1'
+          memory: 4M

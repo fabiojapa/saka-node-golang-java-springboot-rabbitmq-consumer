@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  saka-golang-rabbitmq-consumer:
+    image: fabiojapa/saka-golang-rabbitmq-consumer
+    network_mode: host
+    deploy:
+      resources:
+        limits:
+          cpus: '0.02'
+          memory: 4M
