@@ -1,4 +1,4 @@
 .idea/
 node_modules/
-/saka-rabbitmq-consumer/gradle/wrapper/gradle-wrapper.jar
-/saka-rabbitmq-consumer/gradle/wrapper/gradle-wrapper.properties
+/saka-springboot-rabbitmq-consumer/gradle/wrapper/gradle-wrapper.jar
+/saka-springboot-rabbitmq-consumer/gradle/wrapper/gradle-wrapper.properties
